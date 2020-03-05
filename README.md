@@ -1,5 +1,3 @@
-# Cool Game
+# SuperBrando04
 
-This is a cool game I made
-It uses Javascript
-yes
+yes i do the programming thing
