@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="game.css" type="text/css">
+    <title>Cool Game</title>
+</head>
+<body>
+    <div class="theBigCheeseContainer">
+        <div class="statusConainer">
+            <div class="statuses">
+                <!-- <button class="button" id="restartButton" onclick="restart()">Restart!</button>  -->
+                <div class="statusesRowOne">
+                    <div class="playerHealth">HP: <div id="playerHealth">100</div></div>
+                    <div class="playerMana">MP: <div id="playerMana">100</div></div>
+                </div>
+            </div>
+        </div>
+        <div class="graphicsContainer" id="graphicsContainer">
+            <div class="enemyContainer">    
+                <div id="healthText">100</div>
+                <div class="healthBox">
+                    <div id="enemyHealth"></div>
+                </div>
+                <div class="enemyAndText">
+                    <div class="enemy"><img id="enemy"></div><p id="enemyType"></p>
+                </div>
+                <div id="textContainer"></div>
+                <div id="enemyTextContainer"></div>
+                <button id="enemyDefeatedButton" class="button" onclick="reset()">Explore Again!</button>
+            </div>
+            <div class="uiContainer">
+                <button class="button" id="attackButton" onclick="attack()">Attack!</button>
+                <div>
+                    <form>    
+                        <select id="spellMenu">
+                            <option value="dummy" selected="selected">-Pick Spell-</option>
+                            <option value="recover">Recover: 0 MP</option>
+                            <option value="fire">Fireball: 10 MP</option>
+                            <option value="zap">Lightning: 25 MP</option>
+                        </select>
+                    </form>
+                    <button class="button" id="spellButton" onclick="chooseSpell()">Use Spell</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="game.js"></script>
+</body>
+</html>
