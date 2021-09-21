@@ -3,14 +3,14 @@ body{
     color:#eeffff;
     width: 100vw;
     height: 100vh;
-    margin: auto auto;
-    padding: 10px 10px;
+    margin: auto, auto;
+    padding: 10px, 10px;
     justify-content: center;
     overflow-y: hidden;
 }
 
 .header{
-    padding: 30px 50px;
+    padding: 30px, 50px;
     background-color: #222222;
     font-size: 30px;
     text-align: center;
