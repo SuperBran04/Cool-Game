@@ -1,0 +1,12 @@
+*{
+    margin: auto auto;
+    padding: 0px 0px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+header{
+    font-size: 10px;
+    align: center;
+}
