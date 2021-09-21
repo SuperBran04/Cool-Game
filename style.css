@@ -6,6 +6,10 @@
     overflow-y: hidden;
 }
 
+body{
+    background-color: #111111;
+}
+
 header{
     font-size: 10px;
     align: center;
