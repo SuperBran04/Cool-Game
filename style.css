@@ -2,7 +2,6 @@
     margin: auto auto;
     padding: 0px 0px;
     justify-content: center;
-    overflow-x: hidden;
     overflow-y: hidden;
 }
 
@@ -12,5 +11,5 @@ body{
 
 header{
     font-size: 30px;
-    align: middle;
+    text-align: center;
 }
