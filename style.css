@@ -1,6 +1,15 @@
+
+*{
+    margin: auto auto;
+    padding: 0px 0px;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color:#eeffff;
+}
+
 body{
     background-color: #111111;
-    color:#eeffff;
     width: 100vw;
     height: 100vh;
     margin: auto auto;
