@@ -1,14 +1,11 @@
-*{
-    margin: auto auto;
-    padding: 0px 0px;
-    justify-content: center;
-    overflow-y: hidden;
-}
-
 body{
     background-color: #222222;
     width: 100vw;
     height: 100vh;
+    margin: auto auto;
+    padding: 0px 0px;
+    justify-content: center;
+    overflow-y: hidden;
 }
 
 .navBar{
