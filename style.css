@@ -7,7 +7,7 @@
 
 body{
     background-color: #111111;
-    color:#ffeeee;
+    color:#aaaaaa;
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -61,5 +61,42 @@ nav{
     text-align: center;
     display: flex;
     flex-direction: column;
-    color:#ff7777;
+}
+
+.mainBody h2{
+    font-size: 40px;
+    color: #ff3333;
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
+.blogPost{
+    font-size: 25px;
+    width: 75vw;
+    margin: 30px;
+    padding: 30px;
+    margin: 10px;
+    text-align: left;
+    background-color: #111111;
+}
+
+.blogPost h3{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr{
+    height: 1px;
+    width: 75vw;
+    border: none;
+    background-color: #ff3333;
+}
+
+img{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
