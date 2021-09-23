@@ -39,7 +39,6 @@ a:hover{
 .logo{
     margin: 20px 30px;
     width: 50%;
-    font-family: "Bebas Neue", serif;
 }
 
 nav{
@@ -69,6 +68,7 @@ nav{
     color: #ff3333;
     font-variant: small-caps;
     font-weight: 900;
+    font-family: "Bebas Neue", serif;
 }
 
 .blogPost{
