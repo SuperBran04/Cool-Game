@@ -39,6 +39,7 @@ a:hover{
 .logo{
     margin: 20px 30px;
     width: 50%;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 nav{
@@ -61,6 +62,7 @@ nav{
     text-align: center;
     display: flex;
     flex-direction: column;
+    font-family: 'Kanit', sans-serif;
 }
 
 .mainBody h2{
@@ -79,7 +81,6 @@ nav{
     margin: 10px;
     text-align: left;
     background-color: #111111;
-    font-family: 'Shadows Into Light', cursive;
 }
 
 .blogPost h3{
