@@ -16,6 +16,18 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.logo{
+    margin: 20px 30px;
+    width: 50%;
+    font-family:"Bebas Neue", serif;
+}
+
+.logo a{
+    color: #eeffff;
+    text-decoration: none;
 }
 
 a{
@@ -36,12 +48,6 @@ a:hover{
     vertical-align: middle;
 }
 
-.logo{
-    margin: 20px 30px;
-    width: 50%;
-    font-family: 'Shadows Into Light', cursive;
-}
-
 nav{
     margin: 20px 30px;
     width: 50%;
@@ -53,7 +59,24 @@ nav{
 nav ul{
     display: flex;
     flex-direction: row;
+    justify-content: right;
 }
+
+nav ul li{
+    padding: 10px;
+}
+
+#postNav{
+    background-color: #110000;
+    border-radius: 7px;
+}
+
+#postNav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 
 #flair{
     width: 100vw;
@@ -86,6 +109,7 @@ nav ul{
     margin: 10px;
     text-align: left;
     background-color: #111111;
+    border-radius: 10px;
 }
 
 .blogPost h3{
@@ -99,6 +123,7 @@ hr{
     width: 75vw;
     border: none;
     background-color: #ff3333;
+    margin: 15px;
 }
 
 img{
